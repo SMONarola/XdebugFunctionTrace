@@ -2,7 +2,8 @@
 Xdebug Function Trace in PHP
 
 # Note : 
-Xdebug extension is required for this class
+- Xdebug extension is required for this class
+- Developed having PHP 8.1.1
 
 # References :
 - Xdebug : https://xdebug.org/
@@ -18,5 +19,3 @@ Xdebug extension is required for this class
 	- xdebug.log_level = 10
 	- xdebug.show_local_vars = 0
 	- xdebug.log = "c:/wamp64/logs/xdebug.log"
-
-# Developed having PHP 8.1.1

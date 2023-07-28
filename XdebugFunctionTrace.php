@@ -47,6 +47,7 @@ class XdebugFunctionTrace {
      * @return array|string|bool
      */
     public function getFilteredXDebugFunctionTrace(string $classTerm = '', int $page = 1, int $limit = 10, bool $functionUnique = true, bool $sortByFunctionCount = false, bool $saveCsvSummarize = false) {
+        error_reporting(0);
         if ($this->checkEnvToEnable && !(boolean)getenv('ENABLE_XDEBUG_FUNCTION_TRACE')) {
             return false;
         }
